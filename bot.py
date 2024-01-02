@@ -2,7 +2,7 @@ import lambada
 import telebot
 import open_weather_data
 
-TOKEN = '6682931418:AAFewALlj5cWDJYUTu5PLYT5V-4RmeljZSc'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
